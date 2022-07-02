@@ -1,0 +1,72 @@
+body {
+  margin: -20px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 6px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.info {
+  background-color: white;
+}
+
+.info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+}
+
+.inspiration {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.end-quote {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.action {
+  background-color: white;
+}
+
+.action div {
+  background-color: #3882f6;
+}
+
+footer {
+  background-color: #1f2937;
+}
