@@ -1,6 +1,10 @@
 body {
   margin: -20px 0px;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -21,6 +25,23 @@ h2 {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero div {
+  display: flex;
+}
+
+.hero div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero img {
+  min-width: 400px;
+  min-height: 300px;
 }
 
 .hero button {
@@ -30,6 +51,23 @@ h2 {
   border-radius: 6px;
   color: #f9faf8;
   font-weight: 600;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+nav h2 {
+  display: inline-block;
 }
 
 .info {
