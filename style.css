@@ -1,5 +1,5 @@
 body {
-  margin: -20px 0px;
+  margin: -10px 0px;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,36 +13,56 @@ section {
 
 ul {
   list-style-type: none;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 6px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
-  margin: 0px 0px;
-}
-
-h2 {
-  font-size: 24px;
-  color: #f9faf8;
+  margin-top: 96px;
+  margin-bottom: 0px;
 }
 
 .hero {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero p {
+  margin: 0px 0px 14px 0px;
 }
 
 .hero div:nth-of-type(2) {
-  color: red;
+  width: 500px;
 }
 
 .hero div:nth-of-type(1) {
-  color: green;
+  width: 450px;
 }
 
-.hero img {
-  min-width: 400px;
-  min-height: 300px;
+.hero-image {
+  margin-top: 96px;
+  margin-bottom: 148px;
+  width: 300px;
+  height: 200px;
+  float: right;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero button {
@@ -57,6 +77,26 @@ h2 {
 
 .info {
   background-color: white;
+  text-align: center;
+}
+
+.cards {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 150px;
+  height: 250px;
+  margin: 0px 32px;
+}
+
+.card div {
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  width: 142px;
+  height: 142px;
 }
 
 .info h2 {
@@ -67,6 +107,12 @@ h2 {
 
 .inspiration {
   background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.inspiration div {
+  width: 764px;
 }
 
 .quote {
@@ -74,20 +120,31 @@ h2 {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  padding: 64px 0px 0px 0px;
+  margin-bottom: 0px;
 }
 
 .end-quote {
   color: #1f2937;
   font-size: 18px;
   font-weight: 600;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 64px 0px;
+  text-align: right;
 }
 
 .action {
   background-color: white;
 }
 
-.action div {
+.action div:first-child {
   background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 24px;
+  padding: 64px;
+}
+
+.action div div {
 }
 
 footer {
@@ -96,4 +153,8 @@ footer {
 
 div {
   border: 2px solid red;
+}
+
+section {
+  border: 2px solid green;
 }
